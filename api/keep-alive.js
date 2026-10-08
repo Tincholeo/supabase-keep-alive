@@ -1,11 +1,18 @@
 export default async function handler(req, res) {
   const projects = [
-    {
-      name: "CorrectorIA",
-      url: process.env.SUPABASE_1_URL,
-      key: process.env.SUPABASE_1_KEY,
-    },
-  ];
+   
+const projects = [
+  {
+    name: "CorrectorIA",
+    url: process.env.SUPABASE_1_URL,
+    key: process.env.SUPABASE_1_KEY,
+  },
+  {
+    name: "BarberShift",
+    url: process.env.SUPABASE_2_URL,
+    key: process.env.SUPABASE_2_KEY,
+  },
+];
 
   const results = [];
 
