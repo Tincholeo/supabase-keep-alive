@@ -11,10 +11,16 @@ module.exports = async function handler(req, res) {
     url: process.env.SUPABASE_2_URL,
     key: process.env.SUPABASE_2_KEY,
   },
-    {
+   
+{
   name: "Cortexia",
   url: process.env.SUPABASE_3_URL,
   key: process.env.SUPABASE_3_KEY
+},
+{
+  name: "Nutriops",
+  url: process.env.SUPABASE_4_URL,
+  key: process.env.SUPABASE_4_KEY
 }
 ];
 
