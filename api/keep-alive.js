@@ -1,7 +1,6 @@
-export default async function handler(req, res) {
-  const projects = [
-   
-const projects = [
+module.exports = async function handler(req, res) {
+ 
+   const projects = [
   {
     name: "CorrectorIA",
     url: process.env.SUPABASE_1_URL,
