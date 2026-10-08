@@ -17,11 +17,18 @@ module.exports = async function handler(req, res) {
   url: process.env.SUPABASE_3_URL,
   key: process.env.SUPABASE_3_KEY
 },
+
 {
   name: "Nutriops",
   url: process.env.SUPABASE_4_URL,
   key: process.env.SUPABASE_4_KEY
+},
+{
+  name: "Bizbox 1",
+  url: process.env.SUPABASE_5_URL,
+  key: process.env.SUPABASE_5_KEY
 }
+
 ];
 
   const results = [];
