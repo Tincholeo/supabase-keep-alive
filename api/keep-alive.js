@@ -23,10 +23,16 @@ module.exports = async function handler(req, res) {
   url: process.env.SUPABASE_4_URL,
   key: process.env.SUPABASE_4_KEY
 },
+
 {
   name: "Bizbox 1",
   url: process.env.SUPABASE_5_URL,
   key: process.env.SUPABASE_5_KEY
+},
+{
+  name: "bizbox-portal-crm",
+  url: process.env.SUPABASE_6_URL,
+  key: process.env.SUPABASE_6_KEY
 }
 
 ];
